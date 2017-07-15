@@ -4,6 +4,7 @@
   "description": "jsday api",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,11 @@
   "homepage": "https://github.com/heitorgo1/jsday2017_api#readme",
   "dependencies": {
     "aws-sdk": "^2.85.0",
+    "firebase-admin": "^5.0.1",
     "fs": "0.0.1-security",
+    "morgan": "^1.8.2",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^1.11.0",
     "restify": "^5.0.0"
   }
 }
