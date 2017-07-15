@@ -1,0 +1,24 @@
+{
+  "name": "jsday2017_api",
+  "version": "1.0.0",
+  "description": "jsday api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heitorgo1/jsday2017_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heitorgo1/jsday2017_api/issues"
+  },
+  "homepage": "https://github.com/heitorgo1/jsday2017_api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.85.0",
+    "fs": "0.0.1-security",
+    "restify": "^5.0.0"
+  }
+}
